@@ -26,5 +26,9 @@ public class CustomList {
     {
         cities.remove(city);
     }
+    public int countCity()
+    {
+        return cities.size();
+    }
 
 }
